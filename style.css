@@ -1,0 +1,218 @@
+body{
+    font-family: "Epilogue", sans-serif;
+    color: #2D2D2D;
+}
+
+.logo{
+    font-weight: 600;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 78px; 
+    align-items: center;
+    padding: 0 2em; /* Внутренний отступ. Первое значение - верх/низ. Второе значение - право/лево */
+}
+
+nav
+section{
+    width: 1280px;
+    margin: 0 auto;
+}
+footer{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+nav .navigation_buttons{
+    transition: all 0.15s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;    
+}
+
+nav .navigation_buttons a{
+    transition: all 0.2s ease;
+    color: #2D2D2D;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 3px;
+}
+
+
+nav .navigation_buttons a:hover{
+    color: #FF6B6B;    
+    border-bottom: 2px solid rgb(223, 156, 156);
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 2em;
+}
+
+.first_column span{
+    font-size: 20px;
+}
+
+.first_column h1{
+    font-size: 68px;
+}
+
+.first_column p{
+    font-size: 17px;
+}
+
+.first_column button{
+    background-color: #2D2D2D;
+    color: white;
+    padding: 1.5em 4em;
+    font-size: 20px;
+}
+
+section{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+section .partners{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0px; /* Внешний отступ. Имеет 4 значения, но можно сокртатить до 2 или 1 */
+}
+
+section#services{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+section#services .service{
+    text-align: center;
+    width: 400px;
+    height: 450px;
+}
+
+
+section .portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+section li{
+    list-style: none;
+}
+
+section .testimonial{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1em;
+    gap: 24px;
+}
+
+.testimonial_item{
+    box-sizing: border-box;
+    background-color: #F3F3F3;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 42px;
+}
+
+.testimonial_item p{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+}
+
+.testimonial_item .user_info .avatar{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.testimonial_item .user_info .avatar img{
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial_item .user_info {
+    display: flex;
+
+}
+
+.testimonial_item .user_info .user h4{
+    font-size: 20px;
+    margin: 7px 0;
+}
+
+footer{
+    height: 450px;
+}
+
+footer h2{
+    text-align: left;
+}
+
+footer .footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .column1{
+    font-size: 17px;
+    line-height: 27px;
+    width: 570px;
+    height: 80px;
+}
+
+.footer .column2 input{
+    border: none;
+    background-color: #F3F3F3;
+    box-sizing: border-box;
+    width: 520px;
+    height: 60px;
+    margin-bottom: 12px;
+    padding: 16px 24px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+footer button{
+    box-sizing: border-box;
+    width: 200px;
+    height: 80px;
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer .footer_partners {
+    display: flex;
+}
+
+footer .footer_partners img{
+    margin-right: 25px;
+}
